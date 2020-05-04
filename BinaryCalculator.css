@@ -1,0 +1,63 @@
+.container{
+    width: 400px;
+    height:auto;
+    background-color:blanchedalmond;
+    margin:auto;   
+}
+
+.res{
+    width:98%;
+    height: 40px;
+    border-style: inset;
+    background-color:floralwhite;
+    text-emphasis: bold;
+    font-weight:bolder;
+    font-size: larger;
+}
+
+.btns{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding:10px;
+     
+}
+
+.digits{
+    flex:1;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: fit-content;
+}
+
+.operator{
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: large;
+}
+
+.btn{
+    width: 90px;
+    height:90px;
+    border-radius:50%;
+    background-color: burlywood;
+    margin-bottom: 2%;
+    font-weight: bold;
+    font-size: large;
+}
+
+#btnSum{
+    background-color: gold;
+}
+#btnSub{
+    background-color: cyan;
+}
+#btnMul{
+    background-color: #e68c85;
+}
+#btnDiv{
+    background-color: #9fe685;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="BinaryCalculator.css">
+</head>
+<body>
+    <div class="container">
+
+        <div id="res" class="res"> </div>
+        <div id="btns" class="btns">
+            <div class="digits">
+                <button id="btn1" class="btn" onclick="appendDigit('1')">1</button>
+                <button id="btn0" class="btn" onclick="appendDigit('2')">2</button>
+                <button id="btn1" class="btn" onclick="appendDigit('3')">3</button>
+                <button id="btn0" class="btn" onclick="appendDigit('4')">4</button>
+                <button id="btn1" class="btn" onclick="appendDigit('5')">5</button>
+                <button id="btn0" class="btn" onclick="appendDigit('6')">6</button>
+                <button id="btn1" class="btn" onclick="appendDigit('7')">7</button>
+                <button id="btn0" class="btn" onclick="appendDigit('8')">8</button>
+                <button id="btn1" class="btn" onclick="appendDigit('9')">9</button>
+                <button id="btn0" class="btn" onclick="appendDigit('0')">0</button>
+                <button id="btnClr" class="btn" onclick="clearAll()">C</button>
+                <button id="btnEql" class="btn" onclick="equal()">=</button>
+            </div>
+            <div class="operator">
+                <button id="btnSum" class="btn" onclick="addOperator('+')">+</button>
+                <button id="btnSub" class="btn" onclick="addOperator('-')">-</button>
+                <button id="btnMul" class="btn" onclick="addOperator('*')">*</button>
+                <button id="btnDiv" class="btn" onclick="addOperator('/')">/</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="BinaryCalculator.js"></script>
+</body>
+</html>
